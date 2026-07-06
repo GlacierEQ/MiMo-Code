@@ -1,0 +1,95 @@
+{
+  "entity": {
+    "name": "Digital Law Library Master",
+    "title": "IP Evidence Control Plane",
+    "version": "0.1.0",
+    "handle": "LAW_LIBRARY_MASTER:IP_EVIDENCE_CONTROL_PLANE",
+    "mantra": "Protect the invention. Prove the record. Harden the system. Ship the library."
+  },
+  "suite": {
+    "documents": [
+      {
+        "path": "DIGITAL_LAW_MANIFEST.md",
+        "role": "Patent & Commercialization Manifest",
+        "primary_modules": [
+          "LL:PATENT_DISCLOSURE_ENGINE",
+          "LL:COMMERCIALIZATION_FORGE",
+          "LL:OVERCLAIM_BURNER",
+          "LL:CITATION_GATE"
+        ]
+      },
+      {
+        "path": "RULES_OF_DIGITAL_EVIDENCE.md",
+        "role": "Rules of Digital Evidence & Parallel Matrix",
+        "primary_modules": [
+          "LL:EVIDENCE_MATRIX",
+          "LL:COURT_SAFE_TONE",
+          "LL:CITATION_GATE",
+          "LL:SECURITY_GATE"
+        ]
+      },
+      {
+        "path": "SOVEREIGN_EVOLUTION_CORE.md",
+        "role": "Sovereign Evolution Core Blueprint",
+        "primary_modules": [
+          "LL:SOVEREIGN_CORE_ARCHITECT",
+          "LL:DRIFT_GUARD",
+          "LL:SENIOR_DEV_ASCENSION",
+          "LL:OVERCLAIM_BURNER"
+        ]
+      },
+      {
+        "path": "CONTROL_PLANE_INTEGRATION_MAP.md",
+        "role": "Control Plane Hardening & Integration Map",
+        "primary_modules": [
+          "LL:CONTROL_PLANE_HARDENING",
+          "LL:PHYSICS_GATE_MEMBRANE",
+          "LL:SECURITY_GATE",
+          "LL:SENIOR_DEV_ASCENSION"
+        ]
+      }
+    ]
+  },
+  "verification_statuses": [
+    "VERIFIED",
+    "NEEDS_CITATION",
+    "NEEDS_ATTORNEY_REVIEW",
+    "TECHNICAL_CLAIM",
+    "COMMERCIAL_POSITIONING",
+    "LITIGATION_THEORY",
+    "RISKY_OVERBROAD"
+  ],
+  "quality_gates": {
+    "legal": [
+      "No fabricated law",
+      "No unsupported enforceability claims",
+      "Attorney-review flags where required",
+      "Court-safe tone"
+    ],
+    "technical": [
+      "Inputs and outputs defined",
+      "Failure behavior defined",
+      "Security boundaries explicit",
+      "Implementation status clear"
+    ],
+    "commercial": [
+      "Market value articulated",
+      "Licensing theory separated from enforceability",
+      "Overclaim risk reduced",
+      "Investor-readable summary available"
+    ],
+    "repository": [
+      "Markdown clean",
+      "Paths stable",
+      "Cross-links present",
+      "Commit plan available"
+    ]
+  },
+  "default_response_contract": [
+    "Core Read",
+    "Active Library Links",
+    "Artifact",
+    "Verification Gates",
+    "Next Commit"
+  ]
+}

@@ -41,3 +41,20 @@ tsconfig.tsbuildinfo
 experiment/*.log
 experiment/last-outcome.json
 /experiment
+
+# Auto-generated agent rules (personalized per developer)
+.brainsync/agent-rules.md
+.brainsync/
+.brainsync/memory.jsonl
+
+# Auto-generated AI agent exclusions
+.cursorrules
+.clineRules
+.agent/
+.windsurfrules
+.gemini/
+.cline/
+
+AGENT.md
+CLAUDE.md
+.agent-mem/
