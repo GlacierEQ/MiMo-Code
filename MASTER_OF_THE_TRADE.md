@@ -2,7 +2,7 @@
 ## Unified Monolith: Skills + Connectors + Excellence
 
 > Single source of truth for all coding agents and CLI agents.
-> Combines **62 skills** with distributed memory and MCP scaling.
+> Combines **44 skills** with distributed memory and MCP scaling.
 > **2 monolith skills** reduce activation overhead.
 
 ## Core Properties
@@ -18,18 +18,14 @@
 ### Skills Registry (`packages/opencode/skills/`)
 ```
 skills/
-├── index.json              ← 62 skills unified discovery
+├── index.json              ← 44 skills unified discovery
 ├── MANIFEST.md             ← Integration documentation
-├── agents/                 ← 29 skills (Vercel ecosystem + monolith)
-│   ├── vercel-monolith     ← Functions+Storage+AI+Workflow unified
-│   └── index.json
-├── gemini/                 ← 20 skills (APEX ecosystem + monolith)
-│   ├── apex-monolith       ← hyper-efficiency+memory+connectors unified
-│   └── index.json
-├── grok/                  ← 9 skills (Office/formatting)
-│   └── index.json
-└── mimo/                  ← 1 skill (native)
-    └── index.json
+├── agents/                 ← Skills (Vercel ecosystem + monolith)
+│   └── vercel-monolith     ← Functions+Storage+AI+Workflow unified
+├── gemini/                 ← Skills (APEX ecosystem + monolith)
+│   └── apex-monolith       ← hyper-efficiency+memory+connectors unified
+├── grok/                   ← Skills (Office/formatting)
+└── mimo/                   ← Skills (native)
 ```
 
 ### Memory System (`.apex/`)
@@ -37,7 +33,7 @@ skills/
 .apex/
 ├── MEMORY_MESH.json        ← 6-layer memory topology
 ├── CONNECTOR_MESH.json       ← MCP/connector routing
-├── SKILLS_ROUTER.json        ← Primary skill aliases (308 skills)
+├── SKILLS_ROUTER.json        ← Primary skill aliases
 ├── apex.jsonc              ← Distributed config with free providers
 └── skills/apex/skill.json  ← APEX monolith definition
 ```
