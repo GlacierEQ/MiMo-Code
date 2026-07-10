@@ -19,9 +19,9 @@ Skills are auto-discovered via the Skill service which scans:
 
 ## Integration Status
 
-- ✅ agents_skills (32 skills) → /skills/agents/
+- ✅ agents_skills (28 skills) → /skills/agents/
 - ✅ gemini_skills (19 skills) → /skills/gemini/
 - ✅ grok_skills (9 skills) → /skills/grok/
 - ✅ mimocode_skills (1 skill) → /skills/mimo/
 
-Total: 61 skills integrated
+Total: 60 skills integrated

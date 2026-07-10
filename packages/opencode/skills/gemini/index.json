@@ -5,6 +5,7 @@
     {"name": "apex-meta-ignition", "files": ["SKILL.md", "references/startup.md"]},
     {"name": "apex-pillars", "files": ["SKILL.md"]},
     {"name": "apex-semantic-router", "files": ["SKILL.md", "scripts/router.md"]},
+    {"name": "apex-monolith", "files": ["SKILL.md"]},
     {"name": "digital-law-library-master", "files": ["SKILL.md", "prompts/checkpoint.md", "schemas/citation.yaml"]},
     {"name": "hyper-efficiency-flow", "files": ["SKILL.md", "examples/flow.ts", "scripts/optimize.py"]},
     {"name": "library-of-links", "files": ["SKILL.md"]},
