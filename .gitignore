@@ -58,3 +58,6 @@ experiment/last-outcome.json
 AGENT.md
 CLAUDE.md
 .agent-mem/
+
+# Apex directory (contains connector mesh, memory mesh - may have secrets)
+.apex/
