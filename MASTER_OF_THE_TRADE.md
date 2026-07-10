@@ -8,7 +8,7 @@
 ## Core Properties
 | Property | Implementation |
 |----------|----------------|
-| **Free-capable** | `openrouter/free`, `arcee-ai/*:free`, `minimax/*:free` |
+| **Free-capable** | `openrouter/free`, `arcee-ai/*:free`, `minimax/*:free`, `qwen/*`, `ollama/*`, `huggingface/*`, `google/gemini-2.0-flash-exp`, `together/meta-llama/Llama-3.3-70B-Instruct-Turbo-Free` |
 | **Cache-reliable** | `memoMap` + `ScopedCache` deduplication |
 | **Scalable** | MCP hub with shared state via `INSTANCE_STATE` |
 | **Token-savings** | Built-in via `token-savings` skill + monoliths |
@@ -56,7 +56,16 @@ Merges 8 related skills into single activation:
 ```json
 {
   "model_groups": {
-    "free": ["openrouter/free", "openrouter/auto", "arcee-ai/trinity-large-preview:free", "minimax/minimax-m2.5:free", "qwen/qwen3-8b"]
+    "free": [
+      "openrouter/free", "openrouter/auto",
+      "arcee-ai/trinity-large-preview:free",
+      "minimax/minimax-m2.5:free",
+      "qwen/qwen3-8b",
+      "ollama/llama3.2:3b",
+      "huggingface/meta-llama/Llama-3.2-3B-Instruct",
+      "google/gemini-2.0-flash-exp",
+      "together/meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"
+    ]
   },
   "distributed": {
     "share_auto": true,
