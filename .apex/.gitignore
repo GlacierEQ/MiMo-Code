@@ -1,0 +1,4 @@
+mimocode_data/mimocode.db*
+mimocode_data/log/*.log
+*.json
+*.jsonc
