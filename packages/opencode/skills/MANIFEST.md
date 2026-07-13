@@ -9,17 +9,17 @@ This manifest documents the complete integration of the `mimo-config-backup` rep
 
 ## Integrated Components
 
-### 1. Skill Registry — 60 Skills
+### 1. Skill Registry — 44 Skills
 
 | Category | Source | Count | Status |
 |----------|--------|-------|--------|
-| **agents/** | `agents_skills/` | 28 | ✅ Merged |
-| **gemini/** | `gemini_skills/` | 19 | ✅ Merged |
+| **agents/** | `agents_skills/` | 23 | ✅ Merged |
+| **gemini/** | `gemini_skills/` | 11 | ✅ Merged |
 | **grok/** | `grok_skills/` | 9 | ✅ Merged |
 | **mimo/** | `mimocode_skills/` | 1 | ✅ Merged |
 | **compose/** | Built-in bundle | ~15 | ✅ Existing |
 
-**Total: 60 integrated + ~15 compose = ~75 available skills**
+**Total: 44 integrated + ~15 compose = ~59 available skills**
 
 ### 2. Discovery System
 

@@ -1,1 +1,10 @@
-{"skills":[{"name":"test-runner","files":["SKILL.md"]}]}
+{
+  "skills": [
+    {
+      "name": "test-runner",
+      "files": [
+        "SKILL.md"
+      ]
+    }
+  ]
+}

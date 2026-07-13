@@ -1,23 +1,73 @@
 {
   "skills": [
-    {"name": "apex-aspen-grove-bootup", "files": ["SKILL.md", "references/secrets.md"]},
-    {"name": "apex-gemma4-omni-node", "files": ["SKILL.md"]},
-    {"name": "apex-meta-ignition", "files": ["SKILL.md", "references/startup.md"]},
-    {"name": "apex-pillars", "files": ["SKILL.md"]},
-    {"name": "apex-semantic-router", "files": ["SKILL.md", "scripts/router.md"]},
-    {"name": "apex-monolith", "files": ["SKILL.md"]},
-    {"name": "digital-law-library-master", "files": ["SKILL.md", "prompts/checkpoint.md", "schemas/citation.yaml"]},
-    {"name": "hyper-efficiency-flow", "files": ["SKILL.md", "examples/flow.ts", "scripts/optimize.py"]},
-    {"name": "library-of-links", "files": ["SKILL.md"]},
-    {"name": "make-it-heavy", "files": ["SKILL.md"]},
-    {"name": "mcp", "files": ["SKILL.md"]},
-    {"name": "memory-connect", "files": ["SKILL.md", "examples/connect.ts", "scripts/connect.py"]},
-    {"name": "operator-is-the-universe", "files": ["SKILL.md"]},
-    {"name": "sequential-thinking", "files": ["SKILL.md"]},
-    {"name": "sovereign-ascension", "files": ["SKILL.md", "references/ascension.md"]},
-    {"name": "sovereign-operator", "files": ["SKILL.md"]},
-    {"name": "token-savings", "files": ["SKILL.md", "activate_memory_savings.py", "apex_optimizer.py"]},
-    {"name": "unified-memory-connect", "files": ["SKILL.md", "logic/connect.ts", "logic/schema.ts"]},
-    {"name": "universal-connector", "files": ["SKILL.md", "scripts/connector.ts"]}
+    {
+      "name": "apex-meta-ignition",
+      "files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "apex-monolith",
+      "files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "make-it-heavy",
+      "files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "apex-pillars",
+      "files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "sovereign-operator",
+      "files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "apex-aspen-grove-bootup",
+      "files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "mcp",
+      "files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "digital-law-library-master",
+      "files": [
+        "schemas/digital-law-library-master.json",
+        "SKILL.md",
+        "prompts/digital-law-library-master.md"
+      ]
+    },
+    {
+      "name": "library-of-links",
+      "files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "sovereign-ascension",
+      "files": [
+        "references/operator.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "apex-gemma4-omni-node",
+      "files": [
+        "SKILL.md"
+      ]
+    }
   ]
 }

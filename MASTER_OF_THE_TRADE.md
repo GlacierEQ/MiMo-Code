@@ -2,7 +2,7 @@
 ## Unified Monolith: Skills + Connectors + Excellence
 
 > Single source of truth for all coding agents and CLI agents.
-> Combines **44 skills** with distributed memory and MCP scaling.
+> Combines **44 skills** (consolidated from 59 via monolith merge).
 > **2 monolith skills** reduce activation overhead.
 
 ## Core Properties
@@ -11,7 +11,7 @@
 | **Free-capable** | `openrouter/free`, `arcee-ai/*:free`, `minimax/*:free`, `qwen/*`, `ollama/*`, `huggingface/*`, `google/gemini-2.0-flash-exp`, `together/meta-llama/Llama-3.3-70B-Instruct-Turbo-Free` |
 | **Cache-reliable** | `memoMap` + `ScopedCache` deduplication |
 | **Scalable** | MCP hub with shared state via `INSTANCE_STATE` |
-| **Token-savings** | Built-in via `token-savings` skill + monoliths |
+| **Token-savings** | Built-in via monolith consolidation |
 
 ## Unified Structure
 

@@ -19,11 +19,11 @@ Skills are auto-discovered via the Skill service which scans:
 
 ## Integration Status
 
-- ✅ agents_skills (28 skills) → /skills/agents/
-- ✅ gemini_skills (19 skills) → /skills/gemini/
+- ✅ agents_skills (23 skills) → /skills/agents/
+- ✅ gemini_skills (11 skills) → /skills/gemini/
 - ✅ grok_skills (9 skills) → /skills/grok/
 - ✅ mimocode_skills (1 skill) → /skills/mimo/
 - ✅ vercel-monolith (merged 6 skills) → /skills/agents/
 - ✅ apex-monolith (merged 8 skills) → /skills/gemini/
 
-Total: 62 skills integrated (2 monoliths reduce activation overhead)
+Total: 44 skills integrated (2 monoliths reduce activation overhead)
